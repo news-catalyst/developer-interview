@@ -29,7 +29,7 @@ Here are the tasks. Implement the following features on your fork:
 
 1. In the users app, build models that:
   - Attach a profile to Django's built-in user model
-  - Allow users to associate multiple additional email addresses with their account (beyond the one Django stores in its standard user model)
+  - Allow users to associate multiple additional email addresses with their profile (beyond the one Django stores in its standard user model)
   - Allow users to upload a profile image (just the model, don't worry about actually handling an upload)
   - Allow users to enter a short biography about themselves
 
@@ -48,6 +48,8 @@ In the interview, we will do two things:
 
 1. Review the code you did in the pre-interview step. Be prepared to talk through the architectural decisions you made.
 2. Together, we will edit the view and template you built to display the organizations all users are affiliated with (the view will continue to display all users, not just the user you are logged in with).
+
+We will do this with remote screen sharing software. We will coordinate how we will do this through email.
 
 The goal here is to both understand how you thought about the code you already wrote, as well as get a sense of how you work collaboratively with another programmer.
 
