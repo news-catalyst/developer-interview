@@ -1,5 +1,7 @@
 # News Catalyst Developer Interview
 
+This is a starter Django application for interviewing candidates for News Catalyst's developer position.
+
 ## Quickstart
 
 ### Prerequisites
@@ -27,7 +29,7 @@ Here are the tasks. Implement the following features on your fork:
 
 1. In the users app, build models that:
   - Attach a profile to Django's built-in user model
-  - Allow users to associate multiple email addresses with their account
+  - Allow users to associate multiple additional email addresses with their account (beyond the one Django stores in its standard user model)
   - Allow users to upload a profile image (just the model, don't worry about actually handling an upload)
   - Allow users to enter a short biography about themselves
 
@@ -36,14 +38,18 @@ Here are the tasks. Implement the following features on your fork:
   - Allow users to be members of organizations
   - Allow certain users to be administrators of that organization
 
-3. Implement a view and template that displays all the users in the database.
+3. Implement a view and template that displays all the users in the database. Write some basic styles to display this list.
+
+**Note**: When you're done, leave your work on your local machine. In order to maintain the privacy of these interviews, do **not** submit a pull request, fork the repo, or do anything that would show up in your public history on Github.
 
 ### Interview
 
 In the interview, we will do two things:
 
 1. Review the code you did in the pre-interview step. Be prepared to talk through the architectural decisions you made.
-2. Together, we will edit the view and template you built to display to show the organizations they are affiliated with.
+2. Together, we will edit the view and template you built to display the organizations all users are affiliated with (the view will continue to display all users, not just the user you are logged in with).
+
+The goal here is to both understand how you thought about the code you already wrote, as well as get a sense of how you work collaboratively with another programmer.
 
 ## Questions/concerns
 
